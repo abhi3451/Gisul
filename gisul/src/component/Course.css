@@ -1,0 +1,15 @@
+.course {
+  display: flex;
+
+  justify-content: space-evenly;
+  cursor: pointer;
+  padding: 15px;
+  font-size: large;
+}
+.addCour {
+  cursor: pointer;
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 15px;
+}
